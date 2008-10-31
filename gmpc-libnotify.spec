@@ -35,5 +35,5 @@ A libnotify plugin for gmpc.
 
 %files
 %defattr(-,root,root)
-%{_datadir}/gmpc/plugins/libnotifyplugin.la
-%{_datadir}/gmpc/plugins/libnotifyplugin.so
+%{_libdir}/gmpc/plugins/libnotifyplugin.la
+%{_libdir}/gmpc/plugins/libnotifyplugin.so
