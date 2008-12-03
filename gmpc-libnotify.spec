@@ -30,6 +30,10 @@ A libnotify plugin for gmpc.
 
 %makeinstall_std
 
+%if "%_libdir" != "%_prefix/lib"
+mv %buildroot%_prefix/lib %buildroot%_libdir
+%endif
+
 %clean
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
