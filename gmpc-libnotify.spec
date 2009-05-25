@@ -1,16 +1,15 @@
 Summary:	A libnotify plugin for gmpc
 Name:		gmpc-libnotify
-Version:	0.17.0
+Version:	0.18.0
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Sound
 Url:		http://www.sarine.nl/
-Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{name}-%{version}.tar.bz2
-BuildRequires:	libmpd-devel
-BuildRequires:	libxml2-devel
-BuildRequires:	libglade2.0-devel
+Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	libmpd-devel >= 0.14.99
 BuildRequires:	libnotify-devel
-BuildRequires:	gmpc-devel
+BuildRequires:	gmpc-devel >= 0.15.4.102
+BuildRequires:	gtk+2-devel >= 2.8
 Requires:	gmpc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
@@ -22,7 +21,6 @@ A libnotify plugin for gmpc.
 
 %build
 %configure2_5x
-
 %make
 
 %install
