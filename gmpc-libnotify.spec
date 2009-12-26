@@ -10,6 +10,7 @@ BuildRequires:	libmpd-devel >= 0.14.99
 BuildRequires:	libnotify-devel
 BuildRequires:	gmpc-devel >= 0.15.4.102
 BuildRequires:	gtk+2-devel >= 2.8
+BuildRequires:	intltool
 Requires:	gmpc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
