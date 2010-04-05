@@ -1,6 +1,6 @@
 Summary:	A libnotify plugin for gmpc
 Name:		gmpc-libnotify
-Version:	0.19.0
+Version:	0.20.0
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Sound
