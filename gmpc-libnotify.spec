@@ -4,7 +4,7 @@ Version:	0.20.0
 Release:	5
 License:	GPLv2+
 Group:		Sound
-Url:		http://www.sarine.nl/
+Url:		https://www.sarine.nl/
 Source0:	http://download.sarine.nl/Programs/gmpc/%{version}/%{name}-%{version}.tar.gz
 Patch0:		gmpc-libnotify-0.20.0-libnotify-0.7.patch
 BuildRequires:	libmpd-devel >= 0.14.99
